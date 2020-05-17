@@ -1,0 +1,145 @@
+body {
+    background-image: url(bg.png);
+    font-family: sans-serif;
+    
+}
+nav {
+    position: sticky;
+    top: 0px;
+    margin-left: 85%;
+    border-radius: 2px;
+    width: 230px;
+    color: white;
+    background-color: black;
+}
+nav a{
+    margin-top: 0px;
+    margin: 4px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#hier{
+    color: red;
+}
+
+nav a:hover{
+    color: green;
+}
+
+.halbkreis{
+    margin-top: -600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: rgb(186, 214, 229);
+}
+
+.halbkreis h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-top: 520px;
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.halbkreis p{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+.halbkreis img{
+    width: 30px;
+    height: 30px;
+    margin-left: 495px;
+    margin-top: 95px;
+}
+
+.halbkreis img:hover{
+    width: 40px;
+    height: 40px;
+    margin-left: 490px;
+    margin-top: 90px;
+}
+
+.portfolio{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.portfolio h2{
+    font-size: 20px;
+    color: red; 
+}
+
+.portfolio video{
+    width: 800px;
+    height: 400px;
+    background-color: rgba(240, 235, 235, 0);
+}
+
+.portfolio audio{
+    width: 800px;
+}
+
+.portfolio img{
+    width: 800px;
+    height: 400px;
+}
+.aboutme{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.aboutme h2{
+    font-size: 20px;
+    color:  red; 
+}
+.kontakt{
+    width: 215px;
+    height: 270px;
+    margin-left: 150px;
+    padding: 5px;
+    border: 5px;
+}
+
+.kontakt h2{
+    font-size: 30px;
+    color: grey; 
+}
+
+.kontakt input{
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 200px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    color: grey;
+    background-color: rgb(216, 216, 216);
+}
+#nachricht{
+    width: 270px;
+    height: 50px;
+    flex-wrap: wrap;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: grey;
+    background-color: rgb(216, 216, 216);
+}
