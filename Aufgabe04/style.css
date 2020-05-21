@@ -1,0 +1,169 @@
+html{
+    background-image: url(bg.png);
+    font-family: sans-serif;
+}
+div>img{
+    height: 200px;
+    width: 200px;
+    border-style: double;
+    border-color:black;
+}
+.Preis{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50px;
+
+}
+main {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;   
+    flex-direction: column;
+
+}
+
+main>div {
+        
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div div{
+    width: 200px;
+    margin: 15px;
+
+}
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #7476e0;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    margin: 0px;
+    float: left;
+    background-color: #192e2c;
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #212121;
+}
+
+nav a:hover {
+    background-color: #606060a5;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img~h2{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    
+}
+
+.Warenkorb img{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.Warenkorb img:hover{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+img[src="Logo.jpg"]{
+    width: 200px;
+    height: 100px;
+    margin-left: 820px;
+    border-style: solid;
+    
+}
+
+
+@media (max-width:  1024px){ 
+
+    main{
+        width: 600px;
+    }   
+
+    main>div {
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+
+    h2{
+        text-align: center;
+    }
+
+   
+   
+   }
+   
+
+
+@media (max-width:  600px){ 
+
+ main{
+     width: 200px;
+ }   
+ main div div{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+main  div{
+    margin: 0px;
+   
+}
+h2{
+    text-align: center;
+}
+
+img[src="Logo.jpg"]{
+    margin-left: 100px;
+    margin-bottom: 20px;
+} 
+}
