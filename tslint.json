@@ -1232,7 +1232,7 @@
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-duplicate-variable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-duplicate-letiable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -1280,7 +1280,7 @@
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-unused-variable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-unused-letiable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
@@ -1288,7 +1288,7 @@
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-var-requires<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-let-requires<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
@@ -1296,7 +1296,7 @@
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-shadowed-variable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>no-shadowed-letiable<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
@@ -1324,7 +1324,7 @@
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>typedef<span class="pl-pds">&quot;</span></span>: [<span class="pl-c1">true</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>call-signature<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>parameter<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>property-declaration<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>variable-declaration<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>member-variable-declaration<span class="pl-pds">&quot;</span></span>],</td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>typedef<span class="pl-pds">&quot;</span></span>: [<span class="pl-c1">true</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>call-signature<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>parameter<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>property-declaration<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>letiable-declaration<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>member-letiable-declaration<span class="pl-pds">&quot;</span></span>],</td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
@@ -1348,7 +1348,7 @@
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">				<span class="pl-s"><span class="pl-pds">&quot;</span>variable-declaration<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>nospace<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">				<span class="pl-s"><span class="pl-pds">&quot;</span>letiable-declaration<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>nospace<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
@@ -1364,7 +1364,7 @@
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>variable-name<span class="pl-pds">&quot;</span></span>: [<span class="pl-c1">true</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>check-format<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>allow-leading-underscore<span class="pl-pds">&quot;</span></span>],</td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>letiable-name<span class="pl-pds">&quot;</span></span>: [<span class="pl-c1">true</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>check-format<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>allow-leading-underscore<span class="pl-pds">&quot;</span></span>],</td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
