@@ -1,7 +1,7 @@
 "use strict";
 var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
 var franziskaner = {
-    bild: "Bilder/franziskaner.jpg",
+    bild: "franziskaner.jpg",
     name: "Franziskaner",
     beschreibung: "Schmeckt Lecker",
     preis: "2,50€"
