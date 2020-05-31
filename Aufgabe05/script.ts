@@ -1,144 +1,144 @@
 "use strict";
 let franziskaner = {
-    bild: "franziskaner.jpg",
+    bild: "Franziskaner.jpg",
     name: "Franziskaner",
     beschreibung: "Schmeckt Lecker",
     preis: "2,50€"
 };
 let meckatzer = {
-    bild: "meckatzer.jpg",
+    bild: "Meckatzer.jpg",
     name: "Meckatzer",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let paulaner = {
-    bild: "paulaner.jpg",
+    bild: "Paulaner.jpg",
     name: "Paulaner",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let maisels = {
-    bild: "maisels.jpg",
+    bild: "Maisels.jpg",
     name: "Maisels",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let schöfferhofer = {
-    bild: "schöfferhofer.jpg",
+    bild: "Schöfferhofer.jpg",
     name: "Schöfferhofer",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let oettinger = {
-    bild: "oettinger.jpg",
+    bild: "Oettinger.jpg",
     name: "Oettinger",
     beschreibung: "Wenns sein muss..",
     preis: "0,11€"
 };
 let erdinger = {
-    bild: "erdinger.jpg",
+    bild: "Erdinger.jpg",
     name: "Erdinger",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let urweisse = {
-    bild: "urweisse.jpg",
+    bild: "Urweisse.jpg",
     name: "Urweisse",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let rothaus = {
-    bild: "rothaus.jpg",
+    bild: "Rothaus.jpg",
     name: "Rothaus",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let alpirsbacher = {
-    bild: "alpirsbacher.jpg",
+    bild: "Alpirsbacher.jpg",
     name: "Alpirsbacher",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let andechs = {
-    bild: "andechs.jpg",
+    bild: "Andechs.jpg",
     name: "Andechs",
     beschreibung: "Schmeckt au Lecker",
     preis: "2,50€"
 };
 let alkoholfrei = {
-    bild: "alkoholfrei.jpg",
+    bild: "Alkoholfrei.jpg",
     name: "Alkoholfrei",
     beschreibung: "...",
     preis: "40,00€"
 };
 let augustiner = {
-    bild: "augustiner.jpg",
+    bild: "Augustiner.jpg",
     name: "Augustiner",
     beschreibung: "Schmeckt lecker",
     preis: "2,50€"
 };
 let tegernseer = {
-    bild: "tegernseer.jpg",
+    bild: "Tegernseer.jpg",
     name: "Tegernseer",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let meckatzerhell = {
-    bild: "meckatzerhell.jpg",
+    bild: "Meckatzerhell.jpg",
     name: "Meckatzerhell",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let chiemseer = {
-    bild: "chiemseer.jpg",
+    bild: "Chiemseer.jpg",
     name: "Chiemseer",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let büble = {
-    bild: "büble.jpg",
+    bild: "Büble.jpg",
     name: "Büble",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let michel = {
-    bild: "michel.png",
+    bild: "Michel.png",
     name: "Michel",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let corona = {
-    bild: "corona.jpg",
+    bild: "Corona.jpg",
     name: "Corona",
     beschreibung: "Grad schmeckts besonders Lecker",
     preis: "2,50€"
 };
 let desperados = {
-    bild: "desperados.jpg",
+    bild: "Desperados.jpg",
     name: "Desperados",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let maidle = {
-    bild: "maidle.jpg",
+    bild: "Maidle.jpg",
     name: "Maidle",
     beschreibung: "Ist nur 0,33l da bekommst gleich 6 Stück",
     preis: "5,99€"
 };
 let hochdorfer = {
-    bild: "hochdorfer.jpg",
+    bild: "Hochdorfer.jpg",
     name: "Hochdorfer",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let gösser = {
-    bild: "gösser.jpg",
+    bild: "Gösser.jpg",
     name: "Gösser",
     beschreibung: "Schmeckt au lecker",
     preis: "2,50€"
 };
 let grape = {
-    bild: "grape.jpg",
+    bild: "Grape.jpg",
     name: "Schöfferhofer Grapefruit",
     beschreibung: "Schmeckt au lecker.",
     preis: "2,50€"
