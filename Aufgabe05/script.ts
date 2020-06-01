@@ -2,7 +2,7 @@ interface ArtikelWeizen {
     img: string;
     name: string;
     description: string;
-    preis: number;
+    preis: string;
 }
 
 let artikel1: ArtikelWeizen = { img: "Franziskaner.jpg", name: "Franziskaner", description: "Schmeckt Lecker", preis: "2,50€" };
@@ -41,37 +41,37 @@ for (let index: number = 0; index < artikelWeizen.length; index++) {
     newDiv.id = "atikelW" + index;
     document.getElementById("Weizenbier")?.appendChild(newDiv);
     let newImg = document.createElement("img");
-    newImg.src = weizenbiere[index].bild;
+    newImg.src = artikelWeizen[index].bild;
     document.getElementById("atikelW" + index)?.appendChild(newImg);
     let newW = document.createElement("h2");
-    newW.innerHTML = weizenbiere[index].name;
+    newW.innerHTML = artikelWeizen[index].name;
     document.getElementById("atikelW" + index)?.appendChild(newW); 
     let newP = document.createElement("p");
-    newP.innerHTML = weizenbiere[index].beschreibung;
+    newP.innerHTML = artikelWeizen[index].beschreibung;
     document.getElementById("atikelW" + index)?.appendChild(newP); 
     let newPreis = document.createElement("p");
-    newPreis.innerHTML = weizenbiere[index].preis;
+    newPreis.innerHTML = artikelWeizen[index].preis;
     document.getElementById("atikelW" + index)?.appendChild(newPreis); 
     let newB = document.createElement("input");
     newB.value = "Jetzt kaufen";
     newB.type = "submit";
     document.getElementById("atikelW" + index)?.appendChild(newB);
 }
-for (let index = 0; index < anderebiere.length; index++) {
+for (let index = 0; index < artikelAnderebiere.length; index++) {
     let newDiv = document.createElement("div");
     newDiv.id = "atikelA" + index;
     document.getElementById("AndereBiere")?.appendChild(newDiv);
     let newImg = document.createElement("img");
-    newImg.src = anderebiere[index].bild;
+    newImg.src = artikelAnderebiere[index].bild;
     document.getElementById("atikelA" + index)?.appendChild(newImg); 
     let newH = document.createElement("h2");
-    newH.innerHTML = anderebiere[index].name;
+    newH.innerHTML = artikelAnderebiere[index].name;
     document.getElementById("atikelA" + index)?.appendChild(newH);
     let newP = document.createElement("p");
-    newP.innerHTML = anderebiere[index].beschreibung;
+    newP.innerHTML = artikelAnderebiere[index].beschreibung;
     document.getElementById("atikelA" + index)?.appendChild(newP);
     let newPreis = document.createElement("p");
-    newPreis.innerHTML = anderebiere[index].preis;
+    newPreis.innerHTML = artikelAnderebiere[index].preis;
     document.getElementById("atikelA" + index)?.appendChild(newPreis); 
     let newB = document.createElement("input");
     newB.value = "Jetzt kaufen";
