@@ -1,16 +1,16 @@
 interface ArtikelWeizen {
-    img: string;
+    bild: string;
     name: string;
-    description: string;
+    beschreibung: string;
     preis: string;
 }
 
-let artikel1: ArtikelWeizen = { img: "Franziskaner.jpg", name: "Franziskaner", description: "Schmeckt Lecker", preis: "2,50€" };
-let artikel2: ArtikelWeizen = { img: "Meckatzer.jpg", name: "Meckatzer", description: "Schmeckt Lecker", preis: "2,50€" };
-let artikel3: ArtikelWeizen = { img: "Paulaner.jpg", name: "Paulaner", description: "Schmeckt Lecker", preis: "2,50€" };
-let artikel4: ArtikelWeizen = { img: "Maisels.jpg", name: "Maisels", description: "Schmeckt Lecker", preis: "2,50€" };
-let artikel5: ArtikelWeizen = { img: "Schöfferhoffer.jpg", name: "Schöfferhoffer", description: "Schmeckt Lecker", preis: "2,50€" };
-let artikel6: ArtikelWeizen = { img: "Erdinger.jpg", name: "Erdinger", description: "Schmeckt Lecker", preis: "2,50€" };
+let artikel1: ArtikelWeizen = { bild: "Franziskaner.jpg", name: "Franziskaner", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
+let artikel2: ArtikelWeizen = { bild: "Meckatzer.jpg", name: "Meckatzer", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
+let artikel3: ArtikelWeizen = { bild: "Paulaner.jpg", name: "Paulaner", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
+let artikel4: ArtikelWeizen = { bild: "Maisels.jpg", name: "Maisels", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
+let artikel5: ArtikelWeizen = { bild: "Schöfferhoffer.jpg", name: "Schöfferhoffer", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
+let artikel6: ArtikelWeizen = { bild: "Erdinger.jpg", name: "Erdinger", beschreibung: "Schmeckt Lecker", preis: "2,50€" };
 
 
 
@@ -19,18 +19,18 @@ let artikelWeizen: ArtikelWeizen[] = [artikel1, artikel2, artikel3, artikel4, ar
 
 
 interface ArtikelAnderebiere {
-    img: string;
+    bild: string;
     name: string;
-    description: string;
-    preis: number;
+    beschreibung: string;
+    preis: string;
 }
 
-let artikel7: ArtikelAnderebiere = { img: "Augustiner.jpg", name: "Augustiner", description: "Schmeckt Lecker", preis: "2,50" };
-let artikel8: ArtikelAnderebiere = { img: "Tegernseer.jpg", name: "Tegernseer", description: "Schmeckt Lecker", preis: "2,50" };
-let artikel9: ArtikelAnderebiere = { img: "Meckatzerhell.jpg", name: "Meckatzer-Hell", description: "Schmeckt Lecker", preis: "2,50" };
-let artikel10: ArtikelAnderebiere = { img: "Chiemseer.jpg", name: "Chiemseer", description: "Schmeckt Lecker", preis: "2,50" };
-let artikel11: ArtikelAnderebiere = { img: "Büble.jpg", name: "Büble", description: "Schmeckt Lecker", preis: "2,50" };
-let artikel12: ArtikelAnderebiere = { img: "Michel.jpg", name: "Michel", description: "Schmeckt Lecker", preis: "2,50" };
+let artikel7: ArtikelAnderebiere = { bild: "Augustiner.jpg", name: "Augustiner", beschreibung: "Schmeckt Lecker", preis: "2,50" };
+let artikel8: ArtikelAnderebiere = { bild: "Tegernseer.jpg", name: "Tegernseer", beschreibung: "Schmeckt Lecker", preis: "2,50" };
+let artikel9: ArtikelAnderebiere = { bild: "Meckatzerhell.jpg", name: "Meckatzer-Hell", beschreibung: "Schmeckt Lecker", preis: "2,50" };
+let artikel10: ArtikelAnderebiere = { bild: "Chiemseer.jpg", name: "Chiemseer", beschreibung: "Schmeckt Lecker", preis: "2,50" };
+let artikel11: ArtikelAnderebiere = { bild: "Büble.jpg", name: "Büble", beschreibung: "Schmeckt Lecker", preis: "2,50" };
+let artikel12: ArtikelAnderebiere = { bild: "Michel.jpg", name: "Michel", beschreibung: "Schmeckt Lecker", preis: "2,50" };
 
 
 
