@@ -99,7 +99,7 @@ img~h2{
     
 }
 
-.Warenkorb img{
+img[src="Warenkorb.jpg"]{
     width: 30px;
     height: 30px;
     margin-left: 25px;
