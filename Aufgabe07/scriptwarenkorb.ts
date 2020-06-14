@@ -94,10 +94,10 @@ namespace namespace07 {
         if (_laenge.length > 1) {
             if (localStorage.setSumme) {
                 localStorage.setSumme = Number(localStorage.setSumme) - _preis;
-                np.innerHTML = " der einkaufswert beträgt " + localStorage.setSumme + "Euro";
+                np.innerHTML = " Der Einkaufswert beträgt " + localStorage.setSumme + "Euro";
             }
         } else {
-            np.innerHTML = " ihr wahrenkorb ist leer ";
+            np.innerHTML = " Ihr Warenkorb ist leer ";
             nDiv.appendChild(np);
 
             localStorage.setSumme = 0;
