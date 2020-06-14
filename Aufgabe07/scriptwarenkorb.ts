@@ -70,7 +70,7 @@ namespace namespace07 {
 
 
         } catch (error) {
-            np.innerHTML = " ihr wahrenkorb ist leer ";
+            np.innerHTML = " Der Warenkorb ist leer ";
             nDiv.appendChild(np);
 
         }
