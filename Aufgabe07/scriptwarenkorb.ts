@@ -97,7 +97,7 @@ namespace namespace07 {
                 np.innerHTML = " Der Einkaufswert beträgt " + localStorage.setSumme + "Euro";
             }
         } else {
-            np.innerHTML = " Ihr Warenkorb ist leer ";
+            np.innerHTML = " Der Warenkorb ist leer ";
             nDiv.appendChild(np);
 
             localStorage.setSumme = 0;

@@ -68,7 +68,7 @@ var namespace07;
             }
         }
         else {
-            np.innerHTML = " Ihr Warenkorb ist leer ";
+            np.innerHTML = " Der Warenkorb ist leer ";
             nDiv.appendChild(np);
             localStorage.setSumme = 0;
         }
