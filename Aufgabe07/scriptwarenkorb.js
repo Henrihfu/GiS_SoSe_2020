@@ -12,7 +12,7 @@ var namespace07;
     korbGenerierern();
     async function korbGenerierern() {
         try {
-            await namespace07.communicate("save.json");
+            await namespace07.communicate("https://henrihfu.github.io/GiS_SoSe_2020/Aufgabe07/save.json");
             let stringWare = localStorage.gekauft;
             let arrayWare = stringWare.split(",");
             let warenDiv = document.createElement("div");
