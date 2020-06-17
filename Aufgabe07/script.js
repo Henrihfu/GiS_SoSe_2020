@@ -4,7 +4,7 @@ var namespace07;
     let kategorien = ["Weizenbier", "Anderebiere"];
     seitegenerieren();
     async function seitegenerieren() {
-        await namespace07.communicate("save.json");
+        await namespace07.communicate("https://henrihfu.github.io/GiS_SoSe_2020/Aufgabe07/save.json");
         for (let index = 0; index < namespace07.artikel.length; index++) {
             let newDiv = document.createElement("div");
             newDiv.id = "artikel" + index;

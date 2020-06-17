@@ -17,6 +17,7 @@ namespace namespace07 {
         artikel = JSON.parse(JSON.stringify(response2));
         
         
+        
     }
 
 

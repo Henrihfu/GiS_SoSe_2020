@@ -7,7 +7,7 @@ namespace namespace07 {
 
     async function seitegenerieren(): Promise<void> {
 
-        await communicate("save.json");
+        await communicate("https://henrihfu.github.io/GiS_SoSe_2020/Aufgabe07/save.json");
         for (let index: number = 0; index < artikel.length; index++) {
  
             let newDiv: HTMLDivElement = document.createElement("div");
