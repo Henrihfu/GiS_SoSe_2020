@@ -20,7 +20,7 @@ namespace namespace07 {
         try {
 
              
-            await communicate("save.json");
+            await communicate("https://henrihfu.github.io/GiS_SoSe_2020/Aufgabe07/save.json");
              
             let stringWare: string = localStorage.gekauft;
              

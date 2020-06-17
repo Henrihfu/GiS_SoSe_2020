@@ -16,6 +16,7 @@ namespace namespace07 {
         let response2: JSON = await response.json();
         artikel = JSON.parse(JSON.stringify(response2));
         
+        
     }
 
 
