@@ -9,6 +9,7 @@ namespace namespace07 {
 
     }
     export let artikel: Artikel[];
+    
 
 
     export async function communicate(_url: RequestInfo): Promise<void> {
