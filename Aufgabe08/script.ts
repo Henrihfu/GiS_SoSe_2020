@@ -10,7 +10,9 @@ namespace Aufgabe08 {
         // tslint:disable-next-line: no-any
         let query: URLSearchParams = new URLSearchParams(<any>formData);
         url = url + "?" + query.toString();
-        await fetch(url);
+        let response: Response = await fetch(url, {method: "get"});
+        let responseString: string = await response.text();
+        console.log(responseString);
 
         for (let entry of query) {
             console.log(entry);
