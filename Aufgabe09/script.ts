@@ -1,5 +1,7 @@
 namespace Aufgabe09 {
+    
     let formData: FormData;
+
     let buttonActionHtml: HTMLButtonElement = <HTMLButtonElement> document.getElementById("htmlBut");
     buttonActionHtml.addEventListener("click", handleClickHtml);
 
@@ -32,5 +34,6 @@ namespace Aufgabe09 {
         let response: Response = await fetch(url);
         let responseText: string = await response.json();        
         console.log(responseText);
+        
     }
 }
