@@ -15,7 +15,7 @@ var Aufgabe09;
         url += "?" + query.toString();
         let response = await fetch(url);
         let responseText = await response.text();
-        let serverResponse = document.getElementById("serverResponse");
+        let serverResponse = document.getElementById("antwort");
         serverResponse.innerHTML = responseText;
     }
     async function handleClickJson() {

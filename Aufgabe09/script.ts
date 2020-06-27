@@ -18,7 +18,7 @@ namespace Aufgabe09 {
 
         let response: Response = await fetch(url);
         let responseText: string = await response.text();
-        let serverResponse: HTMLElement = <HTMLElement> document.getElementById("serverResponse");
+        let serverResponse: HTMLElement = <HTMLElement> document.getElementById("antwort");
         serverResponse.innerHTML = responseText;
     }
     
@@ -34,6 +34,6 @@ namespace Aufgabe09 {
         let response: Response = await fetch(url);
         let responseText: string = await response.json();        
         console.log(responseText);
-        
+
     }
 }
