@@ -1,4 +1,4 @@
-namespace namespace07 {
+namespace Test {
 
     // Div für die elemente Alleslöschbutten und insgesamtKosten 
     let nDiv: HTMLDivElement = document.createElement("div");

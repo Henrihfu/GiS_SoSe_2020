@@ -1,6 +1,6 @@
 "use strict";
-var namespace07;
-(function (namespace07) {
+var Test;
+(function (Test) {
     // Div für die elemente Alleslöschbutten und insgesamtKosten 
     let nDiv = document.createElement("div");
     let np = document.createElement("p");
@@ -16,7 +16,7 @@ var namespace07;
         // Error abfangen des Errors der enntseht wenn keine wahren im wahrenkorb sind 
         try {
             // warten bis json neu geladen hat 
-            await namespace07.communicate("save.json");
+            await Test.communicate("save.json");
             //gespeicherte waren abrufen 
             let stringWare = localStorage.gekauft;
             // den sting in ein array umwandekn 
@@ -31,19 +31,19 @@ var namespace07;
                 warenDiv.appendChild(wDiv);
                 // Bild hinzufügen
                 let wimg = document.createElement("img");
-                wimg.src = namespace07.artikel[parseInt(arrayWare[index])].bild;
+                wimg.src = Test.artikel[parseInt(arrayWare[index])].bild;
                 wDiv.appendChild(wimg);
                 // Name hinzugefügt 
                 let newH = document.createElement("h2");
-                newH.innerHTML = namespace07.artikel[parseInt(arrayWare[index])].name;
+                newH.innerHTML = Test.artikel[parseInt(arrayWare[index])].name;
                 wDiv.appendChild(newH);
                 //beschreibung hinzugefügt 
                 let newP = document.createElement("p");
-                newP.innerHTML = namespace07.artikel[parseInt(arrayWare[index])].beschreibung;
+                newP.innerHTML = Test.artikel[parseInt(arrayWare[index])].beschreibung;
                 wDiv.appendChild(newP);
                 // Preis hinzugefügt 
                 let newPreis = document.createElement("p");
-                newPreis.innerHTML = namespace07.artikel[parseInt(arrayWare[index])].preis.toFixed(2) + "€";
+                newPreis.innerHTML = Test.artikel[parseInt(arrayWare[index])].preis.toFixed(2) + "€";
                 wDiv.appendChild(newPreis);
                 // Button hinzugefügt 
                 let newB = document.createElement("input");
@@ -75,7 +75,7 @@ var namespace07;
         // den sting in ein array umwandekn 
         let arrayWare = stringWare.split(",");
         // remove die summe 
-        removeSummme(namespace07.artikel[parseInt(arrayRID[1])].preis, arrayWare);
+        removeSummme(Test.artikel[parseInt(arrayRID[1])].preis, arrayWare);
         removeWare(arrayRID[1], arrayWare);
     }
     // zieht den preis der envernten produkte wieder von dem gespeicherten ab 
@@ -142,5 +142,5 @@ var namespace07;
             document.getElementById("ware" + arrayAll[index])?.remove();
         }
     }
-})(namespace07 || (namespace07 = {}));
+})(Test || (Test = {}));
 //# sourceMappingURL=scriptverleih.js.map
