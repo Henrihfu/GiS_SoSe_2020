@@ -1,5 +1,5 @@
 [
-    {"bild":"Bilder/Smiley.jpg","name":"Teilettenpapier","beschreibung":"Ultra-soft 3 lagieges Toilettenpapier","preis":4.99,"kartegorie":"Hygiene"},
+    {"bild":"Bilder/Smiley.jpg","name":"Toilettenpapier","beschreibung":"Ultra-soft 3 lagieges Toilettenpapier","preis":4.99,"kartegorie":"Hygiene"},
     {"bild":"Bilder/Smiley.jpg","name":"Flüssigseife","beschreibung":"hygienisch leicht & leicht dosierbar","preis":2.39,"kartegorie":"Hygiene"},
     {"bild":"Bilder/Smiley.jpg","name":"Desinfektionsmittel","beschreibung":"tötet alles ab","preis":14.9,"kartegorie":"Hygiene"},
     {"bild":"Bilder/Smiley.jpg","name":"Shampoo","beschreibung":"schonend fürs Haar und den ganzen Körper","preis":1.99,"kartegorie":"Hygiene"},
