@@ -14,5 +14,5 @@ async function sendReservierung (): Promise<void> {
         },
         body: JSON.stringify(reservierung)
     });
-    window.location.href = "https://henrihfu.github.io/GiS_SoSe_2020/Test/astaseite.html";
+    window.location.href = "https://henrihfu.github.io/GiS_SoSe_2020/Test/verleih.html";
 }
