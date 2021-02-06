@@ -1,26 +1,82 @@
 [
-    {"bild":"Bilder/Smiley.jpg","name":"Toilettenpapier","beschreibung":"Ultra-soft 3 lagieges Toilettenpapier","preis":4.99,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Flüssigseife","beschreibung":"hygienisch leicht & leicht dosierbar","preis":2.39,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Desinfektionsmittel","beschreibung":"tötet alles ab","preis":14.9,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Shampoo","beschreibung":"schonend fürs Haar und den ganzen Körper","preis":1.99,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Rasierer","beschreibung":"Passt sich jeder Haut an","preis":200,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Nassrasierer","beschreibung":"der Nassraierer mit den schärfsten klingen ","preis":19.99,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Rasierschaum","beschreibung":"Haut schonend","preis":1.35,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Kamm","beschreibung":"ein einfacher Kamm","preis":1,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Deospray","beschreibung":"fresh und aktive, hält bis zu 48 stunden","preis":2.99,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Deoroller","beschreibung":"Das gleiche wie des Deospray nur als Roller ","preis":2.49,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Zahnbürste","beschreibung":"4er Packung Zahnpasta","preis":1.39,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Zahnpasta","beschreibung":"Für weise Zähen","preis":1.2,"kartegorie":"Hygiene"},
-    {"bild":"Bilder/Smiley.jpg","name":"Heckenschere","beschreibung":"Leichte handhabung","preis":99.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Handschuhe","beschreibung":"perfeckter Schutz für die Hände bei der Gardenarbeit","preis":7.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Arbeitsschuhe","beschreibung":"perfeckter Schutz für die Füße bei der Gardenarbeit","preis":25.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Gartenschere","beschreibung":"perfenkt um Blumen zurück zu stutzen","preis":1,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Arbeitshose","beschreibung":"perfeckter Schutz für die Beine bei der Gardenarbeit","preis":30,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Gartenerde 40L","beschreibung":"für glücklich Blumen","preis":9.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Dünger","beschreibung":"Für langes lebende Blumen","preis":8.89,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"schubkarren.jpg","beschreibung":"eine Schubkarre","preis":49.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Schaufel","beschreibung":"zum Löcher graben","preis":15.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Blumenkelle","beschreibung":"eine kleine Blumenkelle für das Blumenbeet","preis":4.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Rasenmäher","beschreibung":"mit verstellbarer Rasenlage","preis":79.99,"kartegorie":"Garten"},
-    {"bild":"Bilder/Smiley.jpg","name":"Flammenwerfer","beschreibung":"in flammenwerfer der meim unkrautvernichten hilft, ist auch gut geigent für das Beseitigen lestige Nachbarn.","preis":42000,"kartegorie":"Garten"}
+    {
+        "bild": "Bilder/Schneeschaufel.jpg",
+        "titel": "Schneeschaufel",
+        "beschreibung": "Grad geschickt in Furtwangen",
+        "gebühr": 4.99,
+        "status": "Frei",
+        "ausleiher": ""
+    },
+    {
+        "bild": "Bilder/Bohrmaschine.jpg",
+        "titel": "Bohrmaschine",
+        "beschreibung": "Gut zum Löcher bohren",
+        "gebühr": 20.99,
+        "kategorie": "Geräte",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Billardtisch.jpg",
+        "titel": "Billardtisch",
+        "beschreibung": "Raustragen müsst ihr den aber selber",
+        "gebühr": 14.99,
+        "kategorie": "Geräte",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Tischkicker.jpg",
+        "titel": "Tischkicker",
+        "beschreibung": "Tolles Stück!",
+        "gebühr": 14.99,
+        "kategorie": "Geräte",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Zapfanlage.jpg",
+        "titel": "Zapfanlage",
+        "beschreibung": "Wollen wir eigentlich garnicht abgeben",
+        "gebühr": 1000,
+        "kategorie": "Geräte",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Handwärmer.jpg",
+        "titel": "Handwärmer",
+        "beschreibung": "Hält die Hände warm",
+        "gebühr": 2.99,
+        "kategorie": "Gegenstände",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Buch.jpg",
+        "titel": "Leeres Buch",
+        "beschreibung": "Spannendes Buch für zwischendurch",
+        "gebühr": 8.99,
+        "kategorie": "Gegenstände",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Fußball.jpg",
+        "titel": "Fußball",
+        "beschreibung": "Zum spielen",
+        "gebühr": 12.99,
+        "kategorie": "Gegenstände",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Queue.jpg",
+        "titel": "Queue",
+        "beschreibung": "Wird zum Billard spielen benötigt",
+        "gebühr": 1.99,
+        "kategorie": "Gegenstände",
+        "status": "Frei"
+    },
+    {
+        "bild": "Bilder/Stein.jpg",
+        "titel": "Stein",
+        "beschreibung": "Nützlicher Stein für alles einsetzbar",
+        "gebühr": 30.99,
+        "kategorie": "Gegenstände",
+        "status": "Frei"
+    }
 ]

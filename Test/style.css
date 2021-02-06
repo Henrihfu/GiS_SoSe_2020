@@ -8,6 +8,7 @@ div>img{
 body {
     font-family: sans-serif;
     background-image: url(Bilder/bg.png);
+    
 }
 
 img~h2{
@@ -15,7 +16,13 @@ img~h2{
     margin-top: 0px;
 }
 
+.ausgeliehen, .reserviert{
+    opacity: 25%;
+}
 
+.ausgewaehlt{
+    border: 5px solid red;
+}
 h2+p{
     font-size: 10px;
 }
@@ -38,7 +45,6 @@ main {
 }
 
 main>div {
-        
     display: flex;
     flex-wrap: wrap;
 }
@@ -48,20 +54,19 @@ main>div {
 main div div{
     width: 200px;
     margin: 20px;
-
 }
 
 header{
-    background-color: crimson;
-    height: 150px;
-    border-radius: 33%;
+    background-color: rgb(37, 223, 78);
+    height: 135px;
+    border-radius: 20%;
 
 
 }
 
 img[src="Bilder/Logo.png"]{
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
     position: absolute;
     top: 10px;
     border-style: solid;
@@ -90,6 +95,7 @@ img[alt="einkaufswagen"]{
 
 #topmenu ul{
     display:none;
+    
 }
 
 #topmenu:hover ul {
@@ -141,7 +147,7 @@ nav a {
     padding: 5px;
     background-color: white;
     
-}
+} 
 
 
 @media (max-width:  1024px){ 
