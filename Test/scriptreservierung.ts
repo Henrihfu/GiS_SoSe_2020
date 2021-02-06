@@ -6,7 +6,7 @@ async function sendReservierung (): Promise<void> {
     let inputField: HTMLInputElement = <HTMLInputElement>document.getElementById("name");
     let reservierung: Reservierungen = JSON.parse(<string>localStorage.getItem("reservierungen"));
     reservierung.name = inputField.value.trim();
-    await fetch("http://127.0.0.1:8100/reservierung", {
+    await fetch("https://abgabegis.herokuapp.com/reservierung", {
         method: "POST",
         mode: "no-cors",
         headers: {

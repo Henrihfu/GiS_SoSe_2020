@@ -3,7 +3,7 @@ localStorage.clear();
 generieren();
 // schleife zum seite generieren 
 async function generieren() {
-    await communicate("http://127.0.0.1:8100/gegenstand");
+    await communicate("https://abgabegis.herokuapp.com/gegenstand");
     console.log(gegenstand);
     for (let index = 0; index < gegenstand.length; index++) {
         // Estellen von Div Elementen 

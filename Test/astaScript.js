@@ -1,7 +1,7 @@
 "use strict";
 initalizeAsta();
 async function initalizeAsta() {
-    await communicate("http://127.0.0.1:8100/gegenstand");
+    await communicate("https://abgabegis.herokuapp.com/gegenstand");
     console.log(gegenstand);
     generateGegenstaende();
 }
@@ -33,8 +33,8 @@ function generateGegenstaende() {
 }
 async function statusAnpassen() {
     // console.log(this.parentElement.children[1].innerHTML);
-    let clickedGegenstand = gegenstand.find(gegenstand => gegenstand.titel === this.parentElement.children[1].innerHTML);
-    let url = "http://127.0.0.1:8100/statusAnpassen/" + clickedGegenstand._id;
+    let clickedGegenstand = gegenstand.find(gegenstand => gegenstand.titel === this.parentElement?.children[1].innerHTML);
+    let url = "https://abgabegis.herokuapp.com/statusAnpassen/" + clickedGegenstand._id;
     console.log(url);
     await fetch(url);
     window.location.href = "http://127.0.0.1:5500/test/astaseite.html";

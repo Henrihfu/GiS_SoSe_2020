@@ -3,7 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Http = require("http");
 const Url = require("url");
 const Mongo = require("mongodb");
-let port = Number(process.env.Port);
+let port = Number(process.env.PORT);
+console.log(port);
 let databaseUrl = "mongodb+srv://MeinUser:MeinUser@henri-gis.ud0j4.mongodb.net/AStA-Verleih?retryWrites=true&w=majority";
 let gegenstandsCollection;
 if (!port) {

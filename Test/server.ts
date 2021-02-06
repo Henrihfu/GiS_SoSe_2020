@@ -4,7 +4,8 @@ import * as Url from "url";
 import * as Mongo from "mongodb";
 
 
-let port: number = Number(process.env.Port);
+let port: number = Number(process.env.PORT);
+console.log(port);
 let databaseUrl: string = "mongodb+srv://MeinUser:MeinUser@henri-gis.ud0j4.mongodb.net/AStA-Verleih?retryWrites=true&w=majority";
 let gegenstandsCollection: Mongo.Collection;
 
