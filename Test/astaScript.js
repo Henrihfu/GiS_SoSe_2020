@@ -37,6 +37,6 @@ async function statusAnpassen() {
     let url = "https://abgabegis.herokuapp.com/statusAnpassen/" + clickedGegenstand._id;
     console.log(url);
     await fetch(url);
-    window.location.href = "http://127.0.0.1:5500/test/astaseite.html";
+    window.location.href = "https://henrihfu.github.io/GiS_SoSe_2020/Test/astaseite.html";
 }
 //# sourceMappingURL=astaScript.js.map

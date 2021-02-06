@@ -29,7 +29,6 @@ async function connectToDB(_url) {
     gegenstandsCollection = mongoClient.db("AStA-Verleih").collection("Gegenstände");
 }
 async function handleRequest(req, res) {
-    console.log(req.method);
     if (req.method === "POST") {
         handleReservierung(req, res);
     }

@@ -41,7 +41,6 @@ async function connectToDB(_url: string): Promise<void> {
 }
 
 async function handleRequest(req: Http.IncomingMessage, res: Http.ServerResponse): Promise<void> {
-    console.log(req.method);
     if (req.method === "POST") {
         handleReservierung(req, res);
     } else if (req.method === "GET") {
