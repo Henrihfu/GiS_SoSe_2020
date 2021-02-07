@@ -46,7 +46,7 @@ async function handleRequest(req: Http.IncomingMessage, res: Http.ServerResponse
     } else if (req.method === "GET") {
         if (req.url) {
             let url: Url.UrlWithParsedQuery = Url.parse(req.url, true);
-            let pathnameArray: string[] = <string[]>url.pathname?.split("/");
+            let pathnameArray: string[] = <string[]>url.pathname.split("/"); // TSLint Error kann durch "?" behoben werden, jedoch wirft es dann einen "SyntaxError: Unexpected token '.'"
 
             if (url.pathname === "/gegenstand") {
                 getItems(res);
