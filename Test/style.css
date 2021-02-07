@@ -72,12 +72,7 @@ img[src="Bilder/Logo.png"]{
     border-style: solid;
 }
 
-img[alt="einkaufswagen"]{
-    height: 30px;
-    top: 100px;
-    right: 40px;    
-    position: absolute;
-}
+
 
 #anz{
     background-color:black;
